@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NgxMaskModule } from './ngx-mask.module';
+import { Ng4MaskModule } from './ng4-mask.module';
 import { Component } from '@angular/core';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { IConfig } from './config';
@@ -34,7 +34,7 @@ describe('Directive: Mask', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [TestMaskComponent],
-      imports: [ReactiveFormsModule, NgxMaskModule.forRoot()]
+      imports: [ReactiveFormsModule, Ng4MaskModule.forRoot()]
     });
     fixture = TestBed.createComponent(TestMaskComponent);
     component = fixture.componentInstance;

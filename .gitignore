@@ -15,6 +15,7 @@
 .classpath
 *.launch
 .settings/
+*.iml
 
 # misc
 /.sass-cache
@@ -39,6 +40,5 @@ Thumbs.db
 #Log
 *.log
 
-#IDE
-*.iml
-.idea/*
+#yarn
+*.lock

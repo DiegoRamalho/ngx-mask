@@ -25,14 +25,14 @@ $ npm install --save ng4-mask
 Import **ng4-mask** module in Angular app.
 
 ```typescript
-import {NgxMaskModule} from 'ngx-mask'
+import {Ng4MaskModule} from 'ngx-mask'
 
 (...)
 
 @NgModule({
   (...)
   imports: [
-    NgxMaskModule.forRoot(options)
+    Ng4MaskModule.forRoot(options)
   ]
   (...)
 })

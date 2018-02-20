@@ -1,6 +1,6 @@
 {
   "name": "ng4-mask",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "awesome ng4 mask",
   "license": "MIT",
   "angular-cli": {},
@@ -21,13 +21,23 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "tslint './src/app/**/*.ts'",
-    "build:package": "rm -rf ./build && mkdir build && ./node_modules/.bin/ngc -p ./tsconfig.json"
+    "build:package": "rm -rf ./build && mkdir build && ./node_modules/.bin/ngc -p ./src/app/ng4-mask/tsconfig.json"
   },
-  "main": "./build/ngx-mask.module.js",
-  "jsnext:main": "./build/ngx-mask.module.js",
+  "main": "./build/ng4-mask.module.js",
+  "jsnext:main": "./build/ng4-mask.module.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/DiegoRamalho/ngx-mask.git"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=2.4.3",
+    "@angular/compiler": ">=2.4.3",
+    "@angular/http": ">=2.4.3",
+    "@angular/router": ">=2.4.3",
+    "@angular/core": ">=2.4.3",
+    "@angular/forms": ">=2.4.3",
+    "@angular/platform-browser": ">=2.4.3",
+    "@angular/platform-browser-dynamic": ">=2.4.3"
   },
   "dependencies": {
     "@angular/common": "4.4.3",

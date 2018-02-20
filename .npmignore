@@ -10,3 +10,4 @@ tslint.json
 .idea
 .angular-cli.json
 tsconfig.json
+*.iml

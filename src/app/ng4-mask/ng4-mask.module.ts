@@ -9,11 +9,11 @@ import { config, INITIAL_CONFIG, initialConfig, NEW_CONFIG, optionsConfig } from
   exports: [MaskDirective],
   declarations: [MaskDirective]
 })
-export class NgxMaskModule {
+export class Ng4MaskModule {
 
   public static forRoot(configValue?: optionsConfig): ModuleWithProviders {
     return {
-      ngModule: NgxMaskModule,
+      ngModule: Ng4MaskModule,
       providers: [
         {
           provide: NEW_CONFIG,
