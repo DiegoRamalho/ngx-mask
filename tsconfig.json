@@ -9,7 +9,6 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "strict": true,
-    "strictPropertyInitialization": false,
     "skipLibCheck": true,
     "target": "es5",
     "lib": [

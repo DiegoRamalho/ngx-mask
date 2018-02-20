@@ -35,3 +35,10 @@ Thumbs.db
 
 /src/**.*js
 /build
+
+#Log
+*.log
+
+#IDE
+*.iml
+.idea/*
